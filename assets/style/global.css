@@ -1,0 +1,19 @@
+:root{
+    --blue-dark: #3B003B;
+    --blue-medium: #7A007A;
+    --blue-light: #E000E0;
+    --blue-medium-light: #BA00BA;
+
+    --dark-100: #5D5B6A;
+    --dark-50: #758184;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    scroll-behavior: smooth;
+    transition: 1s;
+}
+body{
+
+}
