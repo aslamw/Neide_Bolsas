@@ -19,3 +19,62 @@ header{
     background-position: center;
     background-size: contain;
 }
+
+main{
+    background-color: aqua;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 150px;
+}
+
+.items{
+    background-color: brown;
+    width: 80vws;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+
+    
+
+    background-color: aliceblue;
+    margin: 30px;
+    padding: 10px;
+
+    text-decoration: none;
+    color: blueviolet;
+}
+.item > img{
+    width: 200px;
+    height: 300px;
+
+    border-radius: 20px;
+}
+
+footer{
+    width: 100vw;
+    height: 100px;
+    background-color: darkorchid;
+}
+
+@media (max-width: 800px){
+    .logo{
+        width: 200px;
+        height: 200px;
+    }
+}
